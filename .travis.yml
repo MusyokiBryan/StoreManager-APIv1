@@ -6,6 +6,8 @@ python:
 install:
   - pip install -r requirements.txt
 
+env.bat:
+  -SECRET_KEY=musyokiBryan
 script:
   - coverage run -m unittest
 
