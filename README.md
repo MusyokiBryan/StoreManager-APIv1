@@ -1,3 +1,3 @@
 # StoreManager-APIv1
 [![Build Status](https://travis-ci.com/MusyokiBryan/StoreManager-APIv1.svg?branch=tavis-config)](https://travis-ci.com/MusyokiBryan/StoreManager-APIv1)
-[![Coverage Status](https://coveralls.io/repos/github/MusyokiBryan/StoreManager-APIv1/badge.svg?branch=tavis-config)](https://coveralls.io/github/MusyokiBryan/StoreManager-APIv1?branch=tavis-config)
+[![Coverage Status](https://coveralls.io/repos/github/MusyokiBryan/StoreManager-APIv1/badge.svg?branch=tavis-config)](https://coveralls.io/github/MusyokiBryan/StoreManager-APIv1?branch=tavis-config) [![Maintainability](https://api.codeclimate.com/v1/badges/4780dfc3705335c6cd59/maintainability)](https://codeclimate.com/github/MusyokiBryan/StoreManager-APIv1/maintainability)

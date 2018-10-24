@@ -7,6 +7,7 @@ class ProductTest(ConfigTestCase):
     """this class contains Product tests"""
 
     """We are testing if we can get all products"""
+
     def test_get_products(self):
         response = self.client().get("/api/v1/products")
         self.assertEqual(response.status_code, 200)
