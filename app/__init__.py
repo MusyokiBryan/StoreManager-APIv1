@@ -3,7 +3,7 @@ from flask_restplus import Api
 from Instance.config import app_config
 
 
-def create_app(config_name):
+def create_app(config):
     app = Flask(__name__, instance_relative_config=True)
 
     api = Api(app=app, description="Store Manager is a web application that helps store owners manage sales"
@@ -14,8 +14,7 @@ def create_app(config_name):
               doc='/api/v1/documentation'
               )
 
-    app.config.from_object(app_config[config_name])
-    app.config.from_pyfile('config.py')
+    app.config.from_object(app_config[config])
     app.url_map.strict_slashes = False
 
     from .api.V1.views import product_api, sales_api, user_api, admin_api

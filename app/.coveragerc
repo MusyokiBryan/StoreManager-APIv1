@@ -1,5 +1,5 @@
 [report]
 omit = */python?.?/*
     */site-packages/*
-    */user/*
+    */usr/*
     */tests/*

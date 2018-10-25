@@ -12,7 +12,7 @@ class ConfigTestCase(unittest.TestCase):
 
     def setUp(self):
         """Define test variables and initialize app"""
-        self.app = create_app(config_name="testing")
+        self.app = create_app(config="testing")
         self.client = self.app.test_client
 
         product = Products()
